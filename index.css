@@ -6,6 +6,214 @@ body {
     font-family: poppins, sans-serif; 
 }
 
+/* Wojtek css */
+
+body{
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  hr{
+    height: 1.5px;
+    border: white;
+    width: 25%;
+    background-color: white;
+  }
+  .shr:hover{
+    background-color: black;
+  }
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+    display: inline;
+  }
+  .head{
+    width: 100%;
+   background-image: linear-gradient(to right,#43cae9
+  0%,#38f9d7
+  100%);
+  }
+  .head-cont{
+    text-align: center;
+    width: 1700px;
+    height: 70px;
+  }
+  .picture{
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+  }
+  /* NAVBAR-MENU*/
+  .navbar{
+    float: right;
+  text-align: center;
+    height: 70px;
+  }
+  .ulist-menu{
+    width: 100%;
+    background-color: orange;
+  }
+  .menu-list-item{
+  display: inline-block;
+  float: left;
+  width: 130px;
+  height: auto;
+  text-decoration: none;
+  }
+  .navlist {
+  width: 100%;
+  list-style-type: none;
+  }
+  
+  
+  .amenu{
+    color: white;
+        line-height: 2em;
+        padding: 0.5em 0.5em;
+        text-decoration: none;
+  }
+  
+  .bar{
+    height: 2px;
+    width:100%;
+    margin:0px;
+    background-color: rgba(0, 0, 0, 0.3);
+  
+  
+  }
+  /*MAIN PAGE*/
+  .main-page{
+    text-align: center;
+    width:auto;
+    height: 950px;
+    padding: 10px;
+    background-image: url("assets/backimg.jpg");
+  background-repeat: no-repeat;
+  
+  
+  }
+
+  .content-one{
+    display: inline-block;
+    position: relative;
+    top:10px;
+    width: 1400px;
+    height: 800px;
+    margin: auto;
+    padding: auto 22px;
+  background-color:rgba(0,0,0,0.5);
+  }
+  .content-title{
+      letter-spacing: 2px;
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    position: relative;
+    top:200px;
+    left: 350px;
+  
+  
+  }
+  .buttons{
+    text-align: center;
+  }
+  
+
+  .button-two{
+    left: 100px;
+  }
+  
+  i {position: absolute;
+    display: inline-block;
+    bottom: 80px;
+    margin: auto;
+    border: solid white;
+    border-width: 0 8px 8px 0;
+    padding: 20px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .arrow-two{
+  position: relative;
+  top: 350px;
+  border-width: 0 13px 13px 0;
+  padding: 15px;
+  }
+  .arrow-three{
+    position: relative;
+    top: 330px;
+    border-width: 0 13px 13px 0;
+    padding: 15px;
+  
+  }
+  .space{
+    height: 100px;
+  }
+   .two{
+  
+    background-image: none;
+    background-color: #f4f6f7;
+    height: auto;
+  
+  }
+  .content-two{
+  width: 100%;
+  }
+  .con-two-picture{
+  width:500px;
+  }
+  .con-two-elements{
+  width: 1400px;
+  height: 800px;
+  margin: auto;
+  
+  }
+  .element{
+    display: inline-block;
+    float: left;
+    width: 650px;
+    height: 200px;
+  }
+  .element.one{
+    display: inline-block;
+  
+  }
+  .ele-cont{
+  margin: 00px auto;
+  }
+  .ele-img{
+    position: relative;
+    text-align: center;
+    width: 60px;
+    float: left;
+  }
+  .ele-text{
+    position: relative;
+    top:0px;
+    text-align: center;
+    float: right;
+    width: 500px;
+    font-size: 15px;
+  }
+  .element.two{
+    display: inline-block;
+  
+  }
+  .element.three{
+    display: inline-block;
+  
+  }
+  .three{
+    background-image: none;
+  
+  }
+
+
+/* Roser css */
+
 .button {
     position: relative;
     font-weight: 600;
@@ -137,4 +345,15 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #a4a4a4;
+}
+
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.client-logo{
+    width: 150px;
+    margin: 24px;
 }
